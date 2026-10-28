@@ -1,4 +1,7 @@
 
+.hero-copy{width:min(900px,82vw)!important}
+#title{font-size:clamp(3.8rem,7vw,7rem)!important}
+
 /* The landscape now carries the story; keep only its title visible. */
 .masthead,.chapter__meta,.eyebrow,.hero-copy__sub,.scroll-cue,.chapter__note,.horizon-copy,.footer,.skip-link{display:none!important}
 .hero-copy h1{font-family:"Apple Chancery","Segoe Script","Brush Script MT",cursive;font-style:italic;font-size:clamp(4.5rem,10vw,10rem);line-height:.92;letter-spacing:-.035em}
