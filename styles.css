@@ -1,4 +1,7 @@
 
+/* Sunset gradually becomes a starry dusk as the reader crosses the chapters. */
+.world::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:var(--dusk-progress,0);transition:opacity .12s linear;background:radial-gradient(1.5px 1.5px at 13% 18%,rgba(255,239,210,.95) 50%,transparent 65%),radial-gradient(1.2px 1.2px at 24% 32%,rgba(255,239,210,.8) 50%,transparent 65%),radial-gradient(1.4px 1.4px at 39% 14%,rgba(255,239,210,.88) 50%,transparent 65%),radial-gradient(1px 1px at 54% 26%,rgba(255,239,210,.76) 50%,transparent 65%),radial-gradient(1.5px 1.5px at 69% 13%,rgba(255,239,210,.9) 50%,transparent 65%),radial-gradient(1.2px 1.2px at 86% 29%,rgba(255,239,210,.8) 50%,transparent 65%),linear-gradient(180deg,rgba(59,67,112,.2),rgba(19,37,65,.82))}
+
 .hero-copy{width:min(900px,82vw)!important}
 #title{font-size:clamp(3.8rem,7vw,7rem)!important}
 
