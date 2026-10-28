@@ -8,7 +8,7 @@
     const scroll = window.scrollY;
     for (const layer of layers) {
       const speed = Number(layer.dataset.speed);
-      layer.style.transform = 'translate3d(0,' + (-scroll * speed * 0.12) + 'px,0)';
+      layer.style.transform = 'translate3d(0,' + (-scroll * speed * 0.035) + 'px,0)';
     }
     queued = false;
   }
